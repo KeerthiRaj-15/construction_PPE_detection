@@ -1,4 +1,4 @@
-![Header Image](Visuals/ppe-public-view.png)  
+
 
 # Construction Safety Detection - Mail Alert (Yolov8)
 
