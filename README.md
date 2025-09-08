@@ -57,7 +57,7 @@ Construction sites present various safety hazards, and ensuring that workers wea
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Ansarimajid/Construction-PPE-Detection.git
+   https://github.com/KeerthiRaj-15/construction_PPE_detection.git
     cd Construction-PPE-Detection
     ```
 
