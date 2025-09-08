@@ -96,7 +96,7 @@ EMAIL_PASSWORD=your_email_password
 2. Run the detection script:
 
     ```bash
-    python webcam.py
+    python web2.py
     ```
 
 3. The script will initiate real-time detection using your webcam or process a video file.
@@ -130,9 +130,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
