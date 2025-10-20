@@ -110,7 +110,7 @@ VIDEO_SOURCE="0"           # <-- CHANGE THIS (use "0" for webcam or "path/to/vid
 2. Run the detection script:
 
     ```bash
-    python web2.py
+    python final.py
     ```
 
 3. The script will initiate real-time detection using your webcam or process a video file.
@@ -134,7 +134,7 @@ VIDEO_SOURCE="0"           # <-- CHANGE THIS (use "0" for webcam or "path/to/vid
 
 ## Customization
 
-You can fine-tune the detection parameters, email settings, and thresholds in the `webcam.py` script to adapt to different environments and requirements.
+You can fine-tune the detection parameters, email settings, and thresholds in the `final.py` script to adapt to different environments and requirements.
 
 ---
 
