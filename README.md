@@ -77,16 +77,18 @@ To enable email alert functionality, update the `.env` file in the project direc
 
 ```text
 # --- Sender/Admin Email ( set this) ---
-
-
 SENDER_EMAIL= use any mail for sending
 EMAIL_PASSWORD= Security tab-> App Passwords -> Custom name -> generate-> paste here
 SMTP_SERVER=smtp.gmail.com 
 SMTP_PORT=587
 
+
+
 # --- Default Receiver (Supervisor/Admin) ---
 # (Highly recommended)
 RECEIVER_EMAIL=your-supervisor-email@gmail.com  # <-- CHANGE THIS if you want mail for supervisor
+
+
 
 # --- Project Settings ---
 MODEL_PATH="G:/project/Model/ppe.pt"  # <-- CHANGE THIS (if your model is in a different place)
