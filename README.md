@@ -21,6 +21,8 @@ Construction sites present various safety hazards, and ensuring that workers wea
 - **Central Event Database:** Uses an SQLite database (ppe_events.db) to create a persistent log of all compliance and violation events, employee details,
    including timestamps and paths to evidence.
 - **Employee DB Integration:** Cross-references Employee IDs with an employees.json file to retrieve names and email addresses.
+- **Robust Operator Interface:** Provides large, color-coded banners (green for compliance, red for violations) in the terminal to guide the operator.
+- **Handles Unknown IDs:** If an operator enters an ID that isn't in ***json file***, the system still logs the event with the "Unknown ID" for later review.
 - **Email Alerts:** Sends email alerts if a person is detected without a helmet, with a frame of the incident attached.
 - **Non-Blocking Email Process:** Ensures video feed remains smooth while email alerts are sent in the background.
 - **Mail Sent Notification:** A popup is displayed in the top-right corner of the video feed when an email alert is successfully sent.
