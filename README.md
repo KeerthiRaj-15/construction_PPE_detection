@@ -76,9 +76,21 @@ Construction sites present various safety hazards, and ensuring that workers wea
 To enable email alert functionality, update the `.env` file in the project directory with your email details:
 
 ```text
-SENDER_EMAIL=your_email@gmail.com
-RECEIVER_EMAIL=receiver_email@example.com
-EMAIL_PASSWORD=your_email_password
+# --- Sender/Admin Email ( set this) ---
+
+
+SENDER_EMAIL= use any mail for sending
+EMAIL_PASSWORD= Security tab-> App Passwords -> Custom name -> generate-> paste here
+SMTP_SERVER=smtp.gmail.com 
+SMTP_PORT=587
+
+# --- Default Receiver (Supervisor/Admin) ---
+# (Highly recommended)
+RECEIVER_EMAIL=your-supervisor-email@gmail.com  # <-- CHANGE THIS if you want mail for supervisor
+
+# --- Project Settings ---
+MODEL_PATH="G:/project/Model/ppe.pt"  # <-- CHANGE THIS (if your model is in a different place)
+VIDEO_SOURCE="0"           # <-- CHANGE THIS (use "0" for webcam or "path/to/video.mp4" for a file)
 ```
 
 - **SENDER_EMAIL:** The email address that will send the alerts.
