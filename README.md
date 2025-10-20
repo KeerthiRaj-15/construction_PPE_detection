@@ -70,6 +70,29 @@ Construction sites present various safety hazards, and ensuring that workers wea
 3. Ensure the YOLOv8 weights file (`ppe.pt`) and place it in the designated directory.
 
 ---
+## employees.json 
+This file maps Employee IDs to their names and email addresses.
+{
+  "101": {
+    "name": "John Doe",
+    "email": "worker0@gmail.com"
+  },
+  "102": {
+    "name": "Jane Smith",
+    "email": "worker1@gmail.com"
+  },
+  "103": {
+    "name": "Mike Johnson",
+    "email": "worker2@gmail.com"
+  },
+
+" for more employee id ,copy below and make changes "
+
+  "supervisor": {
+    "name": "Site Supervisor",
+    "email": "supervisor@construction-company.com"
+  }
+}
 
 ## Configuration for Email Alerts
 
