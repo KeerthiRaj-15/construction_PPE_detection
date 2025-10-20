@@ -151,7 +151,7 @@ VIDEO_SOURCE="0"           # <-- CHANGE THIS (use "0" for webcam or "path/to/vid
 
 ## Upgrades in This Project
 
-- **Email Alert with Attachment:** Sends an email every 10 seconds when a person is detected without a helmet, including the captured frame as an attachment.
+- **Email Alert with Attachment:** Sends an email every 5 seconds when a person is detected without a helmet, including the captured frame as an attachment.
 - **Non-Blocking Email Process:** Email alerts are sent in the background to ensure smooth video streaming without interruptions.
 - **Mail Sent Popup:** A popup notification is displayed in the top-right corner of the video feed to confirm that the email has been sent.
 - **Real-Time Counting:** Real-time count of detected helmets, vests, masks, and persons is displayed on the sideboard.
