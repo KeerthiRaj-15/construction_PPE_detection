@@ -164,7 +164,7 @@ VIDEO_SOURCE="0"           # <-- CHANGE THIS (use "0" for webcam or "path/to/vid
 - **Real-Time Counting:** Real-time count of detected helmets, vests, masks, and persons is displayed on the sideboard.
 - **Alert_images:** (Auto-created) Stores timestamped snapshot images of all detected PPE violations.
 - **ppe_events.db:** (Auto-created) The SQLite database that logs all compliance (attendance) and violation events for tracking
-- **Automatic Attendance Logging:**attendance is only marked as 'YES' in the database if an employee is detected as fully compliant with all PPE rules.
+- **Automatic Attendance Logging:** Attendance is only marked as 'YES' in the database if an employee is detected as fully compliant with all PPE rules.
 
 
 ## Customization
