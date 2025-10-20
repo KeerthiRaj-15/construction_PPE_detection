@@ -72,6 +72,8 @@ Construction sites present various safety hazards, and ensuring that workers wea
 ---
 ## employees.json 
 This file maps Employee IDs to their names and email addresses.
+ ```bash
+
 {
   "101": {
     "name": "John Doe",
@@ -93,6 +95,7 @@ This file maps Employee IDs to their names and email addresses.
     "email": "supervisor@construction-company.com"
   }
 }
+ ```
 
 ## Configuration for Email Alerts
 
