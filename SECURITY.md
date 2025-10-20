@@ -4,7 +4,7 @@ We take the security of our project seriously. If you find a security vulnerabil
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it by emailing the project maintainers directly at [ansmajidali@gmail.com]. Include the following information:
+If you discover a security vulnerability, please report it by emailing the project maintainers directly at [lskeerthiraj15@gmail.com@gmail.com]. Include the following information:
 - A detailed description of the vulnerability.
 - Steps to reproduce the issue.
 - Any relevant logs, screenshots, or error messages.
