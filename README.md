@@ -18,6 +18,8 @@ Construction sites present various safety hazards, and ensuring that workers wea
 - **Count Display:** Displays real-time counts of detected helmets, vests, masks, and persons on a sideboard overlay.
 - **Automatic Attendance Logging:** When an employee is detected as fully  wearing all required PPE, the system pauses and prompts
    the operator to enter an Employee ID to log their attendance (attendance_marked = 'YES') in the database.
+- **Central Event Database:** Uses an SQLite database (ppe_events.db) to create a persistent log of all compliance and violation events, employee details,
+   including timestamps and paths to evidence.
 - **Email Alerts:** Sends email alerts if a person is detected without a helmet, with a frame of the incident attached.
 - **Non-Blocking Email Process:** Ensures video feed remains smooth while email alerts are sent in the background.
 - **Mail Sent Notification:** A popup is displayed in the top-right corner of the video feed when an email alert is successfully sent.
